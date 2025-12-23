@@ -2,7 +2,7 @@
 // and WebHookUrl
 // https://api.slack.com/apps/A09JMKFN2UT/incoming-webhooks?
 // https://api.slack.com/apps/A09JMKFN2UT/oauth?
-#r "bin/Release/net9.0/Cake.Slack.dll"
+#r "bin/Release/net10.0/Cake.Slack.dll"
 var slackChannel    = "#cake-contrib";
 var slackToken      = EnvironmentVariable("SLACK_TOKEN");
 var slackhookuri    = EnvironmentVariable("slackhookuri");
